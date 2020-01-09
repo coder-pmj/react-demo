@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    .nav-left{
+        min-width: 180px;
+        height: calc(100vh);
+        background-color: #001529;
+    }
+    .main{
+         height: calc(100vh);
+         background-color: rgb(238, 232, 232);
+         overflow: hidden;
+        //  overflow-y: scroll;
+        .content{
+            height: calc(~ '100vh - 200px');
+            position: relative;
+            padding: 20px;
+            overflow: hidden;
+            overflow-y:scroll
+        }
+    }
+}

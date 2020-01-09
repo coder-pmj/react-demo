@@ -1,0 +1,45 @@
+.header{
+     background-color: white;
+    .header-top{
+        height: 60px;
+        line-height: 60px;
+        padding: 0 20px;
+        text-align: right;
+        span{
+            font-weight: 800;
+            font-size: 17px;
+        }
+        a{
+            margin:0 10px 0 30px;
+        }
+    }
+    .breadcrumb{
+        height: 40px;
+        line-height: 40px;
+        padding: 0 20px;
+        border-top: 1px solid #f9c700;
+        .breadcrumb-title{
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            &:after{
+                position: absolute;
+                content:'';
+                top: 39px;
+                left:95px;
+                border-top:10px solid white;
+                border-left:14px solid transparent;
+                border-right: 14px solid transparent;
+            }
+        }
+        .location{
+            text-align: right;
+            .date{
+                margin-right: 20px;
+            }
+            .location-deatil{
+                font-weight: 600;
+            }
+        }
+    }
+}
